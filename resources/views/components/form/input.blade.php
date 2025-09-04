@@ -4,7 +4,7 @@
 ])
 
 @php
-    $withiconClasses = $withicon ? 'pl-11 pr-4' : 'px-4'
+    $withiconClasses = $withicon ? 'pl-12 pr-4' : 'px-4'
 @endphp
 
 <input

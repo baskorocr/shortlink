@@ -37,6 +37,7 @@
 
         <!-- Validation Errors -->
         <x-auth-validation-errors class="mb-4" :errors="$errors" />
+   
 
         <form method="POST" action="{{ url('/' . $link->short_code) }}">
             @csrf
@@ -58,6 +59,7 @@
                                  required 
                                  autocomplete="current-password" 
                                  placeholder="Enter password" 
+                                 withicon="true"
                                  autofocus />
                 </x-form.input-with-icon-wrapper>
             </div>
